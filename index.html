@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>FE-3 Module Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Get Data  -->
+      <div class="getData" id="current-image-container">
+        <h1 id="top"></h1>
+        <img src="" alt="" />
+        <h2></h2>
+        <p></p>
+      </div>
+
+      <!-- Search Section -->
+      <div class="search">
+        <h2>Search for a Picture of the Day</h2>
+        <form id="search-form">
+          <label for="text">Search a date</label>
+          <input type="date" id="search-input" />
+          <button type="button">search</button>
+        </form>
+      </div>
+
+      <!-- Show History -->
+      <div class="history">
+        <h2>Previous Searches</h2>
+        <ul id="search-history"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

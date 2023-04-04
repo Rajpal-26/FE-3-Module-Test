@@ -1,0 +1,15 @@
+.container {
+  padding: 0px 50px;
+}
+.getData {
+  background: #000;
+  padding: 50px;
+  color: white;
+  /* width: 1000px; */
+}
+.getData img {
+  width: 1120px;
+}
+h1 {
+  margin-bottom: 0px;
+}
